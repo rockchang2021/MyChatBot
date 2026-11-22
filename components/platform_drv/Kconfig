@@ -1,0 +1,10 @@
+menu "Platform driver"
+
+config PLATFORM_DRV_HEARTBEAT_PERIOD_MS
+    int "Heartbeat period (ms)"
+    default 5000
+    range 1000 60000
+    help
+        Interval between heartbeat log lines in app_main.
+
+endmenu

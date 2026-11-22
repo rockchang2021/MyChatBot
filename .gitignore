@@ -1,0 +1,13 @@
+build/
+sdkconfig
+sdkconfig.old
+dependencies.lock
+managed_components/
+.cache/
+
+# IDF / editor
+*.pyc
+.DS_Store
+
+# Optional: keep credentials out of repo (per Spec Kit init notice)
+# .cursor/
