@@ -21,4 +21,4 @@
 
 ## Phase 5: Publish
 
-- [ ] T5.1 Git commit and push to MyChatBot origin
+- [x] T5.1 Git commit and push to MyChatBot origin

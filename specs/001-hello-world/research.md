@@ -26,4 +26,4 @@ CONFIG_SPIRAM_SPEED_80M=y
 
 ## Serial
 
-Default UART console 1158400 8N1 via ACM; user in `dialout` group.
+Default UART console 115200 8N1 via ACM; user in `dialout` group.
