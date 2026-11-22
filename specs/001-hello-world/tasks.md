@@ -1,24 +1,35 @@
-# Tasks: 001-hello-world
+# Tasks: 001-hello-world  
+# 任务：001-hello-world
 
-## Phase 1: Project scaffold
+## Phase 1: Project scaffold | 阶段 1：工程骨架
 
-- [x] T1.1 Root CMakeLists, sdkconfig.defaults, sdkconfig.defaults.esp32s3
-- [x] T1.2 Root .gitignore and README.md
+| Task | EN | ZH | 状态 |
+|------|----|----|------|
+| T1.1 | Root CMakeLists, sdkconfig.defaults* | 根 CMake 与 defaults | [x] |
+| T1.2 | .gitignore and README.md | 忽略文件与 README | [x] |
 
-## Phase 2: Driver component [P]
+## Phase 2: Driver component [P] | 阶段 2：驱动组件（可并行）
 
-- [x] T2.1 `components/platform_drv` (CMakeLists, Kconfig, header, source)
-- [x] T2.2 Implement contract platform_drv-api.md
+| Task | EN | ZH | 状态 |
+|------|----|----|------|
+| T2.1 | `components/platform_drv` skeleton | platform_drv 骨架 | [x] |
+| T2.2 | Implement platform_drv-api contract | 实现 API 契约 | [x] |
 
-## Phase 3: Application
+## Phase 3: Application | 阶段 3：应用
 
-- [x] T3.1 Thin `main/app_main.c` and CMakeLists
+| Task | EN | ZH | 状态 |
+|------|----|----|------|
+| T3.1 | Thin `main/app_main.c` | 薄 main | [x] |
 
-## Phase 4: Validation
+## Phase 4: Validation | 阶段 4：验证
 
-- [x] T4.1 `idf.py set-target esp32s3 build`
-- [x] T4.2 `idf.py -p /dev/ttyACM0 flash` and monitor sample vs quickstart
+| Task | EN | ZH | 状态 |
+|------|----|----|------|
+| T4.1 | `idf.py set-target esp32s3 build` | 设 target 并构建 | [x] |
+| T4.2 | flash/monitor vs quickstart | 烧录监视对照 quickstart | [x] |
 
-## Phase 5: Publish
+## Phase 5: Publish | 阶段 5：发布
 
-- [x] T5.1 Git commit and push to MyChatBot origin
+| Task | EN | ZH | 状态 |
+|------|----|----|------|
+| T5.1 | Git commit and push to MyChatBot | 提交并推送 MyChatBot | [x] |
